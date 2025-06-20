@@ -1,7 +1,7 @@
 # BigNumbers
 
-This project provides a simple implementation of arithmetic operations (addition, subtraction, multiplication) for big numbers that exceed the limits of standard numeric types. It is designed to work only with natural numbers (non-negative integers).
-Initially this project was created as a solution for exercise from book "[Zrozumieć Programowanie](https://zrozumiecprogramowanie.pl/#/mainPage)" wrote by Gynvael Coldwind but I decided to share with this project with you. :)
+This project provides a simple implementation of arithmetic operations (addition, subtraction, multiplication) for big numbers that exceed the limits of standard numeric types in c#. It is designed to work only with natural numbers (non-negative integers).
+Initially this project was created as a solution for exercise from book "[Zrozumieć Programowanie](https://zrozumiecprogramowanie.pl/#/mainPage)" wrote by Gynvael Coldwind but I decided to share project with you. :)
 
 ## Features
 
