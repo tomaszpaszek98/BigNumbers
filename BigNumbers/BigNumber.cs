@@ -14,7 +14,7 @@ public class BigNumber
 
     public static BigNumber operator +(BigNumber firstNumber, BigNumber secondNumber)
     {
-        var resultList =  ColumnOperations.Add.Count(firstNumber.Digits, secondNumber.Digits);
+        var resultList = ColumnOperations.Add.Count(firstNumber.Digits, secondNumber.Digits);
         
         return new BigNumber(resultList.TrimRedundantZeros());
     }
@@ -29,6 +29,7 @@ public class BigNumber
     public static BigNumber operator *(BigNumber firstNumber, BigNumber secondNumber)
     {
        var resultList = ColumnOperations.Multiply.Count(firstNumber.Digits, secondNumber.Digits);
+
        return new BigNumber(resultList.TrimRedundantZeros());
     }
     

@@ -5,6 +5,7 @@ namespace BigNumbers.Extensions;
 public static class ListExtensions
 {
     private const byte Zero = 0;
+    
     public static BigNumber ToBigNumber<T>(this IList<T> list) where T : struct
     {
         if (typeof(T) == typeof(byte))
